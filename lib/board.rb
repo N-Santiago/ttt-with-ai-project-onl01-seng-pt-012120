@@ -38,11 +38,7 @@ class Board
 end
 
 def taken?(position)
-   if (self.cell == " ") || (self.cell == "") || (self.cell == nil)
-      return false 
-   else
-      return true
-   end
+  
 end
 
 end 
