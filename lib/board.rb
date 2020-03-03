@@ -24,7 +24,7 @@ class Board
   end
   
    def full?
-   if (self.cell == " ") || (cells[index] == "") || (cells[index] == nil)
+   if (self.cell == " ") || (self.cell == "") || (self.cell == nil)
       return false 
    else
       return true
