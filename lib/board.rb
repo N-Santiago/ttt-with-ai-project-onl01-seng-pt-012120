@@ -22,5 +22,13 @@ class Board
   def position(user_input)
     self.cells[user_input.to_i-1]
   end
+  
+   def full?(index)
+   if (board[index] == " ") || (board[index] == "") || (board[index] == nil)
+      return false 
+   else
+      return true
+   end
+end
 
 end 
