@@ -8,7 +8,7 @@ class Board
   end
   
   def reset! 
-    self.
+    self.cells = Array.new(9, " ")
   
   def display  
     puts " #{@cells[0]} | #{@cells[1]} | #{@cells[2]} "
