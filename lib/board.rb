@@ -24,7 +24,7 @@ class Board
   end
   
    def full?(index)
-   if (board[index] == " ") || (board[index] == "") || (board[index] == nil)
+   if (cells[index] == " ") || (cells[index] == "") || (cells[index] == nil)
       return false 
    else
       return true
