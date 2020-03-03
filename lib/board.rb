@@ -38,7 +38,8 @@ class Board
 end
 
 def taken?(position)
-  
+  poddsition(input) == "X" || position(input) == "O"
+  end
 end
 
 end 
