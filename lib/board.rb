@@ -26,5 +26,7 @@ class Board
    def full?
    self.cells.all? {|cell| cell == "X" || cell == "O"}
   end
+  
+  
 
 end 
