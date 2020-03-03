@@ -24,11 +24,7 @@ class Board
   end
   
    def full?
-   if (self.cell == " ") || (self.cell == "") || (self.cell == nil)
-      return false 
-   else
-      return true
-   end
-end
+   self.cells.all? {|cell| cell == "X" || cell == "O"}
+  end
 
 end 
