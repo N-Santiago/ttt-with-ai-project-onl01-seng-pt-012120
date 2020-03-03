@@ -1,9 +1,14 @@
 class Board 
   attr_accessor :cells 
   
+  @cells = []
+  
   def initialize(cells = nil)
     @cells = cells || Array.new(9, " ")
   end
+  
+  def reset! 
+    self.
   
   def display  
     puts " #{@cells[0]} | #{@cells[1]} | #{@cells[2]} "
