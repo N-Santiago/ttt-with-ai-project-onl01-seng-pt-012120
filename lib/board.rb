@@ -37,9 +37,8 @@ class Board
   return turn
 end
 
-def taken?(position)
-  poddsition(input) == "X" || position(input) == "O"
-  end
+def taken?(user_input)
+  position(user_input) == "X" || position(user_input) == "O"
 end
 
 end 
