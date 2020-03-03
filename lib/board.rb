@@ -23,7 +23,7 @@ class Board
     self.cells[user_input.to_i-1]
   end
   
-   def full?(index)
+   def full?
    if (cells[index] == " ") || (cells[index] == "") || (cells[index] == nil)
       return false 
    else
