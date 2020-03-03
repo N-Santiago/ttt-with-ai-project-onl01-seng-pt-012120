@@ -27,6 +27,14 @@ class Board
    self.cells.all? {|cell| cell == "X" || cell == "O"}
   end
   
-  
+  def turn_count
+  turn = 0
+  board.each do |cell|
+    if cell == "X" || cell == "O"
+      turn += 1
+    end
+  end
+  return turn
+end
 
 end 
