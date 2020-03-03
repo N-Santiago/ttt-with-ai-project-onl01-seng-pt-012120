@@ -37,7 +37,7 @@ class Board
   return turn
 end
 
-def position_taken?
+def taken?
    if (self.cell == " ") || (self.cell == "") || (self.cell == nil)
       return false 
    else
